@@ -48,7 +48,7 @@ def processar_dados(df):
     return tabela_obra, total_obra_unidades, total_obra_valor, tabela_tipo, total_tipo_unidades, total_tipo_valor
 
 # Caminho fixo da planilha padrão
-caminho_padrao = "/Users/jrdeep/Documents/DEEPDEV/bmrmusic-accounting/v3/streaming_analysis_app/data/extrato_streaming.xlsx"
+caminho_padrao = "data/extrato_streaming.xlsx"
 
 # Interface do App
 st.title("Análise de Streamings e Downloads")
